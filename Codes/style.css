@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.item1 {
+  grid-area: logo;
+}
+.item2 {
+  grid-area: content;
+}
+.item3 {
+  grid-area: order;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Users/biswarup/Desktop/BISWA/WEBDEV/Biswa/protfolio/newProject/project_03/assets/image_for_bg.png");
+  background-size: cover;
+}
+.main_container {
+  height: 100vh;
+  width: 100vw;
+}
+/* -------- navigation bar --------- */
+.navigation_bar {
+  list-style: none;
+  display: grid;
+  grid-template-areas: "logo _ content order";
+  gap: 1fr 1fr 1fr;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  font-size: 1.3em;
+  margin-top: 50px;
+  color: rgb(255, 208, 80);
+}
+.order_btn {
+  margin: 35px;
+  height: 2.5em;
+  width: 8em;
+  font-size: 1.2em;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(253, 116, 98);
+  color: white;
+}
+.item3 {
+  text-align: right;
+}
+.logo_img {
+  margin: 35px;
+  height: 50px;
+}
+/* main masage part */
+.middle_part {
+  padding-top: 6em;
+  text-align: center;
+}
+.main_masg {
+  text-align: center;
+  font-size: 5.4em;
+  font-family: "Oswald", sans-serif;
+  color: rgb(244, 197, 67);
+}
+.read_menu_btn {
+  height: 2.5em;
+  width: 10em;
+  border-radius: 5px;
+  font-size: 2em;
+  font-weight: 700;
+  background-color: rgb(253, 116, 98);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* footer portion */
+.foot_bar {
+  text-align: right;
+}
+.footer_logo {
+  margin: 3em;
+
+  height: 8em;
+  width: 8em;
+}
